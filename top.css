@@ -1,0 +1,15 @@
+project/
+│
+├── app.py                 ← main runner (OpenAI + tool loop)
+├── skill_loader.py        ← loads SKILL.md
+├── runner.py              ← safe python executor
+│
+├── skills/
+│   └── pdf/
+│       ├── SKILL.md
+│       └── scripts/
+│           ├── extract_text.py
+│           ├── split_pdf.py
+│           └── merge_pdf.py
+│
+└── workdir/               ← input/output files

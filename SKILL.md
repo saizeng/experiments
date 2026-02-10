@@ -53,6 +53,16 @@ args=["--in","report.pdf","--out","report.txt"]
 
 ---
 
+### query_pdf_simple.py
+Purpose: answer any question about a PDF by sending extracted text (with auto chunk-summarize fallback)
+Args: --in input.pdf --q "question"
+
+Example query you’d type in your agent
+
+“From report.pdf, what is the total revenue in 2024? Please cite the relevant wording.”
+
+---
+
 ### split_pdf.py
 Purpose:
 Extract a page range into a new PDF.
